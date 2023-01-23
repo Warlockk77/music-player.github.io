@@ -181,21 +181,21 @@ body {
 
 .progress-container{
  width:190%;
- margin-right: 42.5vw;
+ margin-right: 45vw;
  margin-top: 20px;
  
  
 
 }
 .img-container{
-  left:71px;
+  left:24vw;
   top:150px;
   
   
 }
 .img-container::after{
   content: '';
-  margin-left: 22px;
+  margin-left: 5vw;
 }
 
 }
