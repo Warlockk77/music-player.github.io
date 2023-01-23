@@ -183,7 +183,8 @@ body {
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  align-self: center;
+  left:0;
+  right:0;
 }
 
 .img-container::after{
