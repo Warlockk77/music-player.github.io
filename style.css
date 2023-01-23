@@ -167,18 +167,22 @@ body {
   width: 95vw;
 }
 
-.navigation {
-  position: relative;
-  width:40vw;
-  left:18.5vw;
-  
-}
+
 .music-info{
   height:100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.img-container img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.img-container::after{
+  display: none;
 }
 
 .progress-container{
@@ -187,26 +191,16 @@ body {
  margin-top: 20px;
  
  
+ 
 
 }
-.img-container{
-  left:33vw;
-  top:78vh;
-  position: fixed;
-  
-  
+.back{
+  background: transparent;
 }
-.img-container img{
-  position: fixed;
-  left:35vw;
-  top:64vh;
-}
-.img-container::after{
- display: none;
-}
-.whole{
-  position: relative;
-}
+
+
+
+
 
 }
 
