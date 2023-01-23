@@ -168,8 +168,10 @@ body {
 }
 
 .navigation {
+  position: relative;
   width:40vw;
-  margin-right:17.5vw ;
+  left:18.5vw;
+  
 }
 .music-info{
   height:100px;
@@ -180,22 +182,30 @@ body {
 }
 
 .progress-container{
- width:190%;
- margin-right: 45vw;
+ width:180%;
+ margin-right: 35vw;
  margin-top: 20px;
  
  
 
 }
 .img-container{
-  left:24vw;
-  top:150px;
+  left:33vw;
+  top:78vh;
+  position: fixed;
   
   
 }
+.img-container img{
+  position: fixed;
+  left:35vw;
+  top:64vh;
+}
 .img-container::after{
-  content: '';
-  margin-left: 5vw;
+ display: none;
+}
+.whole{
+  position: relative;
 }
 
 }
